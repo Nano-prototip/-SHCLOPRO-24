@@ -54,6 +54,6 @@ variable "public_subnet" {
 ```
 
 * Публичная подсеть NAT-инстанс, присвоив ему адрес 192.168.10.254. В качестве image_id используя fd80mrhj8fl2oe87o4e1.
-
+[nat_instance.tf]https://github.com/Nano-prototip/-SHCLOPRO-24/blob/main/terraform/nat_instance.tf
 
 
