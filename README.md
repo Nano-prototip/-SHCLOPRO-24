@@ -53,7 +53,7 @@ variable "public_subnet" {
 }
 ```
 
-* Публичная подсеть NAT-инстанс, присвоив ему адрес 192.168.10.254. В качестве image_id используя fd80mrhj8fl2oe87o4e1.
+* Публичная подсеть NAT-инстанс, присвоить адрес 192.168.10.254. В качестве image_id используя fd80mrhj8fl2oe87o4e1.
 [nat_instance.tf](https://github.com/Nano-prototip/-SHCLOPRO-24/blob/main/terraform/nat_instance.tf)
 
 * Публичная подсеть виртуальная машина с публичным IP.
@@ -106,7 +106,7 @@ resource "yandex_vpc_route_table" "private-route" {
 
 <img width="682" height="133" alt="02" src="https://github.com/user-attachments/assets/7c6d14e4-218f-4dc2-88b2-48b4d5302421" />
 
-Отключение виртуальной машину с NAT-инстансом:
+Отключение виртуальной машины с NAT-инстансом:
 <img width="1002" height="134" alt="03" src="https://github.com/user-attachments/assets/b5d5e778-746f-4480-ab77-fbc7f81f53eb" />
 
 Проверка работы интернета на приватной виртуальной машине:
